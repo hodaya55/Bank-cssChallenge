@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /*     margin: 0px; */
+}
+
+.login {
+    background-color: #c40019;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 290px;
+    min-width: 305px;
+    max-width: 305px;
+}
+
+.regis {
+    background-color: #ae0117;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 150px;
+    min-width: 305px;
+    max-width: 305px;
+}
+
+.container {
+/*     border-radius: 15px; */
+/*     height: 400px; */
+/*     width: 23%; */
+/*     max-width: 305px; */
+/*     float: right; */
+/*     margin-right: 90px; */
+        position: absolute;
+    right: 50px;
+}
+
+.openBtn {
+    padding: 20px 30px 20px 30px;
+    color: #2e3652;
+    font-weight: bold;
+    margin: 24px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.openBtn img {
+    width: 21px;
+    height: 21px;
+    float: right;
+    padding-left: 7px;
+/*     -webkit-box-reflect: below 0px; */
+    /*
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.1)));
+*/
+}
+
+
+/* for reflection */
+/* .openBtn img:after {
+    content: "";
+    display: block;
+    background: -moz-element(.openBtn) no-repeat;
+    width: auto;
+    height: 375px;
+    margin-bottom: 100px;
+    -moz-transform: scaleY(-1);
+} */
+
+h3 {
+    color: white;
+    padding-top: 25px;
+}
+
+.inp {
+    line-height: 30px;
+    width: 255px;
+    background-color: #e8e7e7;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    text-align: right;
+/*     display: inline-table; */
+    /* direction: ltr; */
+/*      margin: 6px; */
+/*     position: inherit; */
+}
+
+
+.inp::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-weight: bold;
+    color: #180a74;
+}
+.inp:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-weight: bold;
+    color: #180a74;
+}
+.inp::-moz-placeholder { /* Mozilla Firefox 19+ */
+   font-weight: bold;
+    color: #180a74;
+}
+.inp:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: bold;
+    color: #180a74;
+}
+
+.enterBtn {
+    border-radius: 25px;
+    padding-left: 53px;
+    padding-right: 53px;
+    line-height: 30px;
+    color: #c40019;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    margin: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    /*to unset the _ below the link*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blockForget {
+    font-size: 14px !important;
+}
+
+.join {
+    font-weight: 700;
+}
+
